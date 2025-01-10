@@ -1,0 +1,25 @@
+[2.027s] Invoking command in '/home/lydia-chheng/launch_ws/src/launch_substitution': PYTHONPATH=/home/lydia-chheng/launch_ws/build/launch_substitution/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lydia-chheng/launch_ws/install/launch_substitution/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/launch_substitution build --build-base /home/lydia-chheng/launch_ws/build/launch_substitution/build install --record /home/lydia-chheng/launch_ws/build/launch_substitution/install.log --single-version-externally-managed install_data
+[2.484s] /home/lydia-chheng/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[2.484s]   warnings.warn(msg)
+[2.704s] running egg_info
+[2.737s] writing ../../build/launch_substitution/launch_substitution.egg-info/PKG-INFO
+[2.737s] writing dependency_links to ../../build/launch_substitution/launch_substitution.egg-info/dependency_links.txt
+[2.738s] writing requirements to ../../build/launch_substitution/launch_substitution.egg-info/requires.txt
+[2.738s] writing top-level names to ../../build/launch_substitution/launch_substitution.egg-info/top_level.txt
+[2.813s] reading manifest file '../../build/launch_substitution/launch_substitution.egg-info/SOURCES.txt'
+[2.813s] adding license file 'LICENSE'
+[2.815s] writing manifest file '../../build/launch_substitution/launch_substitution.egg-info/SOURCES.txt'
+[2.816s] running build
+[2.816s] running build_py
+[2.816s] copying launch_substitution/__init__.py -> /home/lydia-chheng/launch_ws/build/launch_substitution/build/lib/launch_substitution
+[2.817s] running install
+[2.824s] running install_lib
+[2.863s] running install_data
+[2.863s] copying resource/launch_substitution -> /home/lydia-chheng/launch_ws/install/launch_substitution/share/ament_index/resource_index/packages
+[2.864s] copying package.xml -> /home/lydia-chheng/launch_ws/install/launch_substitution/share/launch_substitution
+[2.865s] running install_egg_info
+[2.903s] removing '/home/lydia-chheng/launch_ws/install/launch_substitution/lib/python3.10/site-packages/launch_substitution-0.0.0-py3.10.egg-info' (and everything under it)
+[2.903s] Copying ../../build/launch_substitution/launch_substitution.egg-info to /home/lydia-chheng/launch_ws/install/launch_substitution/lib/python3.10/site-packages/launch_substitution-0.0.0-py3.10.egg-info
+[2.906s] running install_scripts
+[3.227s] writing list of installed files to '/home/lydia-chheng/launch_ws/build/launch_substitution/install.log'
+[3.275s] Invoked command in '/home/lydia-chheng/launch_ws/src/launch_substitution' returned '0': PYTHONPATH=/home/lydia-chheng/launch_ws/build/launch_substitution/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lydia-chheng/launch_ws/install/launch_substitution/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/launch_substitution build --build-base /home/lydia-chheng/launch_ws/build/launch_substitution/build install --record /home/lydia-chheng/launch_ws/build/launch_substitution/install.log --single-version-externally-managed install_data
