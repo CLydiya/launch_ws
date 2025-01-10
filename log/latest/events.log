@@ -1,0 +1,90 @@
+[0.000000] (-) TimerEvent: {}
+[0.000436] (launch_tutorial) JobQueued: {'identifier': 'launch_tutorial', 'dependencies': OrderedDict()}
+[0.000782] (py_launch) JobQueued: {'identifier': 'py_launch', 'dependencies': OrderedDict()}
+[0.000881] (launch_tutorial) JobStarted: {'identifier': 'launch_tutorial'}
+[0.012107] (py_launch) JobStarted: {'identifier': 'py_launch'}
+[0.098401] (-) TimerEvent: {}
+[0.198877] (-) TimerEvent: {}
+[0.299284] (-) TimerEvent: {}
+[0.399708] (-) TimerEvent: {}
+[0.500162] (-) TimerEvent: {}
+[0.600564] (-) TimerEvent: {}
+[0.700987] (-) TimerEvent: {}
+[0.801505] (-) TimerEvent: {}
+[0.901959] (-) TimerEvent: {}
+[1.002368] (-) TimerEvent: {}
+[1.102857] (-) TimerEvent: {}
+[1.203293] (-) TimerEvent: {}
+[1.303718] (-) TimerEvent: {}
+[1.404143] (-) TimerEvent: {}
+[1.504563] (-) TimerEvent: {}
+[1.604989] (-) TimerEvent: {}
+[1.705493] (-) TimerEvent: {}
+[1.798274] (launch_tutorial) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/launch_tutorial', 'build', '--build-base', '/home/lydia-chheng/launch_ws/build/launch_tutorial/build', 'install', '--record', '/home/lydia-chheng/launch_ws/build/launch_tutorial/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/lydia-chheng/launch_ws/src/launch_tutorial', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'lydia-chheng', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/lydia-chheng', 'OLDPWD': '/home/lydia-chheng', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_US.UTF-8', 'SYSTEMD_EXEC_PID': '1590', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/lydia-chheng/launch_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'lydia-chheng', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'lydia-chheng', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/lydia-chheng/.local/bin:/home/lydia-chheng/.local/bin:/opt/ros/humble/bin:/home/lydia-chheng/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/lydiachheng-Latitude-E6430:@/tmp/.ICE-unix/1568,unix/lydiachheng-Latitude-E6430:/tmp/.ICE-unix/1568', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/180b5b6b_1f59_407e_976e_b949fadfc828', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/lydia-chheng/launch_ws/install/launch_tutorial:/home/lydia-chheng/launch_ws/install/py_launch:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/lydia-chheng/launch_ws/build/launch_tutorial', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/lydia-chheng/launch_ws/build/launch_tutorial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lydia-chheng/launch_ws/install/launch_tutorial/lib/python3.10/site-packages:/home/lydia-chheng/launch_ws/install/launch_tutorial/lib/python3.10/site-packages:/home/lydia-chheng/launch_ws/install/py_launch/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.805721] (-) TimerEvent: {}
+[1.825704] (py_launch) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/py_launch', 'build', '--build-base', '/home/lydia-chheng/launch_ws/build/py_launch/build', 'install', '--record', '/home/lydia-chheng/launch_ws/build/py_launch/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/lydia-chheng/launch_ws/src/py_launch', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'lydia-chheng', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/lydia-chheng', 'OLDPWD': '/home/lydia-chheng', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_US.UTF-8', 'SYSTEMD_EXEC_PID': '1590', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/lydia-chheng/launch_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'lydia-chheng', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'lydia-chheng', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/lydia-chheng/.local/bin:/home/lydia-chheng/.local/bin:/opt/ros/humble/bin:/home/lydia-chheng/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/lydiachheng-Latitude-E6430:@/tmp/.ICE-unix/1568,unix/lydiachheng-Latitude-E6430:/tmp/.ICE-unix/1568', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/180b5b6b_1f59_407e_976e_b949fadfc828', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/lydia-chheng/launch_ws/install/launch_tutorial:/home/lydia-chheng/launch_ws/install/py_launch:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/lydia-chheng/launch_ws/build/py_launch', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/lydia-chheng/launch_ws/build/py_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/lydia-chheng/launch_ws/install/py_launch/lib/python3.10/site-packages:/home/lydia-chheng/launch_ws/install/launch_tutorial/lib/python3.10/site-packages:/home/lydia-chheng/launch_ws/install/py_launch/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.905848] (-) TimerEvent: {}
+[2.006279] (-) TimerEvent: {}
+[2.095092] (launch_tutorial) StderrLine: {'line': b"/home/lydia-chheng/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[2.095470] (launch_tutorial) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[2.106373] (-) TimerEvent: {}
+[2.109398] (py_launch) StderrLine: {'line': b"/home/lydia-chheng/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[2.109761] (py_launch) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[2.206498] (-) TimerEvent: {}
+[2.306928] (-) TimerEvent: {}
+[2.310022] (launch_tutorial) StdoutLine: {'line': b'running egg_info\n'}
+[2.324337] (py_launch) StdoutLine: {'line': b'running egg_info\n'}
+[2.343760] (launch_tutorial) StdoutLine: {'line': b'writing ../../build/launch_tutorial/launch_tutorial.egg-info/PKG-INFO\n'}
+[2.344557] (launch_tutorial) StdoutLine: {'line': b'writing dependency_links to ../../build/launch_tutorial/launch_tutorial.egg-info/dependency_links.txt\n'}
+[2.345195] (launch_tutorial) StdoutLine: {'line': b'writing requirements to ../../build/launch_tutorial/launch_tutorial.egg-info/requires.txt\n'}
+[2.346370] (launch_tutorial) StdoutLine: {'line': b'writing top-level names to ../../build/launch_tutorial/launch_tutorial.egg-info/top_level.txt\n'}
+[2.360065] (py_launch) StdoutLine: {'line': b'writing ../../build/py_launch/py_launch.egg-info/PKG-INFO\n'}
+[2.360924] (py_launch) StdoutLine: {'line': b'writing dependency_links to ../../build/py_launch/py_launch.egg-info/dependency_links.txt\n'}
+[2.361494] (py_launch) StdoutLine: {'line': b'writing requirements to ../../build/py_launch/py_launch.egg-info/requires.txt\n'}
+[2.361870] (py_launch) StdoutLine: {'line': b'writing top-level names to ../../build/py_launch/py_launch.egg-info/top_level.txt\n'}
+[2.407043] (-) TimerEvent: {}
+[2.416966] (launch_tutorial) StdoutLine: {'line': b"reading manifest file '../../build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'\n"}
+[2.417952] (launch_tutorial) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[2.419569] (launch_tutorial) StdoutLine: {'line': b"writing manifest file '../../build/launch_tutorial/launch_tutorial.egg-info/SOURCES.txt'\n"}
+[2.420356] (launch_tutorial) StdoutLine: {'line': b'running build\n'}
+[2.420585] (launch_tutorial) StdoutLine: {'line': b'running build_py\n'}
+[2.420822] (launch_tutorial) StdoutLine: {'line': b'copying launch_tutorial/__init__.py -> /home/lydia-chheng/launch_ws/build/launch_tutorial/build/lib/launch_tutorial\n'}
+[2.421111] (launch_tutorial) StdoutLine: {'line': b'running install\n'}
+[2.429944] (py_launch) StdoutLine: {'line': b"reading manifest file '../../build/py_launch/py_launch.egg-info/SOURCES.txt'\n"}
+[2.430748] (launch_tutorial) StdoutLine: {'line': b'running install_lib\n'}
+[2.431055] (py_launch) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[2.433072] (py_launch) StdoutLine: {'line': b"writing manifest file '../../build/py_launch/py_launch.egg-info/SOURCES.txt'\n"}
+[2.434049] (py_launch) StdoutLine: {'line': b'running build\n'}
+[2.434289] (py_launch) StdoutLine: {'line': b'running build_py\n'}
+[2.435382] (py_launch) StdoutLine: {'line': b'copying py_launch/__init__.py -> /home/lydia-chheng/launch_ws/build/py_launch/build/lib/py_launch\n'}
+[2.435683] (py_launch) StdoutLine: {'line': b'running install\n'}
+[2.452210] (py_launch) StdoutLine: {'line': b'running install_lib\n'}
+[2.482240] (launch_tutorial) StdoutLine: {'line': b'running install_data\n'}
+[2.482787] (launch_tutorial) StdoutLine: {'line': b'copying resource/launch_tutorial -> /home/lydia-chheng/launch_ws/install/launch_tutorial/share/ament_index/resource_index/packages\n'}
+[2.483307] (launch_tutorial) StdoutLine: {'line': b'copying package.xml -> /home/lydia-chheng/launch_ws/install/launch_tutorial/share/launch_tutorial\n'}
+[2.483922] (launch_tutorial) StdoutLine: {'line': b'copying launch/example_substitutions.launch.py -> /home/lydia-chheng/launch_ws/install/launch_tutorial/share/launch_tutorial/launch\n'}
+[2.485517] (launch_tutorial) StdoutLine: {'line': b'copying launch/example_main.launch.py -> /home/lydia-chheng/launch_ws/install/launch_tutorial/share/launch_tutorial/launch\n'}
+[2.485794] (launch_tutorial) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.506240] (py_launch) StdoutLine: {'line': b'running install_data\n'}
+[2.506878] (py_launch) StdoutLine: {'line': b'copying resource/py_launch -> /home/lydia-chheng/launch_ws/install/py_launch/share/ament_index/resource_index/packages\n'}
+[2.507077] (-) TimerEvent: {}
+[2.507459] (py_launch) StdoutLine: {'line': b'copying package.xml -> /home/lydia-chheng/launch_ws/install/py_launch/share/py_launch\n'}
+[2.507879] (py_launch) StdoutLine: {'line': b'copying launch/my_script_launch.py -> /home/lydia-chheng/launch_ws/install/py_launch/share/py_launch/launch\n'}
+[2.508897] (py_launch) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.539574] (launch_tutorial) StdoutLine: {'line': b"removing '/home/lydia-chheng/launch_ws/install/launch_tutorial/lib/python3.10/site-packages/launch_tutorial-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.540142] (launch_tutorial) StdoutLine: {'line': b'Copying ../../build/launch_tutorial/launch_tutorial.egg-info to /home/lydia-chheng/launch_ws/install/launch_tutorial/lib/python3.10/site-packages/launch_tutorial-0.0.0-py3.10.egg-info\n'}
+[2.542076] (launch_tutorial) StdoutLine: {'line': b'running install_scripts\n'}
+[2.563649] (py_launch) StdoutLine: {'line': b"removing '/home/lydia-chheng/launch_ws/install/py_launch/lib/python3.10/site-packages/py_launch-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.564269] (py_launch) StdoutLine: {'line': b'Copying ../../build/py_launch/py_launch.egg-info to /home/lydia-chheng/launch_ws/install/py_launch/lib/python3.10/site-packages/py_launch-0.0.0-py3.10.egg-info\n'}
+[2.566233] (py_launch) StdoutLine: {'line': b'running install_scripts\n'}
+[2.611365] (-) TimerEvent: {}
+[2.711808] (-) TimerEvent: {}
+[2.812624] (-) TimerEvent: {}
+[2.884274] (py_launch) StdoutLine: {'line': b"writing list of installed files to '/home/lydia-chheng/launch_ws/build/py_launch/install.log'\n"}
+[2.889248] (launch_tutorial) StdoutLine: {'line': b"writing list of installed files to '/home/lydia-chheng/launch_ws/build/launch_tutorial/install.log'\n"}
+[2.912759] (-) TimerEvent: {}
+[2.942187] (py_launch) CommandEnded: {'returncode': 0}
+[2.961502] (py_launch) JobEnded: {'identifier': 'py_launch', 'rc': 0}
+[2.966432] (launch_tutorial) CommandEnded: {'returncode': 0}
+[2.989877] (launch_tutorial) JobEnded: {'identifier': 'launch_tutorial', 'rc': 0}
+[2.991806] (-) EventReactorShutdown: {}
